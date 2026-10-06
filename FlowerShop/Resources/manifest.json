@@ -1,0 +1,356 @@
+{
+  "units": "meters",
+  "upAxis": "Y",
+  "notes": "All USDZs: metersPerUnit=1, upAxis=Y, defaultPrim /Root (Xform, no xformOps) > mesh1 (single triangle Mesh, doubleSided=1) bound to /Root/Materials/mat0 (UsdPreviewSurface: diffuseColor <- 2048 sRGB JPEG, normal <- 2048 raw JPEG, roughness <- 1024 PNG, metallic = 0 constant). Textures are embedded in the usdz. Meshy's own USDZ export tagged meter-valued points as metersPerUnit=0.3048 (would load ~3.3x too small in RealityKit); fixed when repackaging, and points were left unchanged. Origin: flowers have the stem base at (0,0,0) with the lowest point at y=0 (X/Z were translated so the stem, not the bounding box, is centered). Stems are within ~3 degrees of vertical; blooms face roughly +Z (sunflower and daisy faces point +Z). The vase is centered on its axis with its base at y=0. Measurements come from the final USDZ geometry. bloom_*: the contiguous top region whose horizontal extent from the stem axis exceeds max(4*stem_radius, 2 cm); bloom_center is the bounding-box center of that region and bloom_radius the 95th-percentile vertex distance from it (a sphere-collider radius). stem_radius is the median equivalent radius of stem cross-sections between 10% and 60% of height. stem_top is the last clean stem cross-section below the bloom. Vase: real hollow open-mouth ceramic with a level rim; thin double-sided shell (wall ~2.5 mm); X/Z scaled by 0.8 after Meshy so the inner mouth is ~11 cm. wall_profile = [[y, inner_radius, outer_radius], ...]. A convex-hull collider would fill the cavity, so use a compound collider (a floor disk at cavity_floor_height plus a ring of thin boxes following wall_profile).",
+  "models": {
+    "rose": {
+      "file": "rose.usdz",
+      "bounds_min": [
+        -0.1084,
+        0.0,
+        -0.0823
+      ],
+      "bounds_max": [
+        0.0655,
+        0.45,
+        0.113
+      ],
+      "height": 0.45,
+      "bloom_center": [
+        -0.0395,
+        0.3813,
+        0.05
+      ],
+      "bloom_radius": 0.063,
+      "bloom_bounds_min": [
+        -0.1084,
+        0.3125,
+        -0.013
+      ],
+      "bloom_bounds_max": [
+        0.0295,
+        0.45,
+        0.113
+      ],
+      "stem_bottom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stem_top": [
+        -0.0103,
+        0.307,
+        0.0123
+      ],
+      "stem_radius": 0.0036,
+      "triangles": 15263,
+      "file_mb": 3.2
+    },
+    "tulip": {
+      "file": "tulip.usdz",
+      "bounds_min": [
+        -0.0636,
+        0.0,
+        -0.0597
+      ],
+      "bounds_max": [
+        0.0611,
+        0.4,
+        0.0759
+      ],
+      "height": 0.4,
+      "bloom_center": [
+        -0.0013,
+        0.341,
+        0.0081
+      ],
+      "bloom_radius": 0.0786,
+      "bloom_bounds_min": [
+        -0.0636,
+        0.282,
+        -0.0597
+      ],
+      "bloom_bounds_max": [
+        0.0611,
+        0.4,
+        0.0759
+      ],
+      "stem_bottom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stem_top": [
+        0.0006,
+        0.277,
+        -0.005
+      ],
+      "stem_radius": 0.0059,
+      "triangles": 12272,
+      "file_mb": 2.77
+    },
+    "sunflower": {
+      "file": "sunflower.usdz",
+      "bounds_min": [
+        -0.176,
+        0.0,
+        -0.054
+      ],
+      "bounds_max": [
+        0.1454,
+        0.55,
+        0.0839
+      ],
+      "height": 0.55,
+      "bloom_center": [
+        0.0109,
+        0.431,
+        0.025
+      ],
+      "bloom_radius": 0.1254,
+      "bloom_bounds_min": [
+        -0.1237,
+        0.312,
+        -0.0339
+      ],
+      "bloom_bounds_max": [
+        0.1454,
+        0.55,
+        0.0839
+      ],
+      "stem_bottom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stem_top": [
+        0.0149,
+        0.307,
+        -0.0018
+      ],
+      "stem_radius": 0.009,
+      "triangles": 20685,
+      "file_mb": 4.1
+    },
+    "lily": {
+      "file": "lily.usdz",
+      "bounds_min": [
+        -0.1103,
+        0.0,
+        -0.0496
+      ],
+      "bounds_max": [
+        0.0921,
+        0.48,
+        0.1218
+      ],
+      "height": 0.48,
+      "bloom_center": [
+        -0.0091,
+        0.3712,
+        0.0559
+      ],
+      "bloom_radius": 0.1267,
+      "bloom_bounds_min": [
+        -0.1103,
+        0.2624,
+        -0.01
+      ],
+      "bloom_bounds_max": [
+        0.0921,
+        0.48,
+        0.1218
+      ],
+      "stem_bottom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stem_top": [
+        0.0043,
+        0.257,
+        -0.0044
+      ],
+      "stem_radius": 0.0046,
+      "triangles": 15457,
+      "file_mb": 3.19
+    },
+    "peony": {
+      "file": "peony.usdz",
+      "bounds_min": [
+        -0.1129,
+        0.0,
+        -0.0816
+      ],
+      "bounds_max": [
+        0.0863,
+        0.42,
+        0.1002
+      ],
+      "height": 0.42,
+      "bloom_center": [
+        -0.0151,
+        0.3436,
+        0.0093
+      ],
+      "bloom_radius": 0.0919,
+      "bloom_bounds_min": [
+        -0.1129,
+        0.2673,
+        -0.0816
+      ],
+      "bloom_bounds_max": [
+        0.0827,
+        0.42,
+        0.1002
+      ],
+      "stem_bottom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stem_top": [
+        -0.0085,
+        0.262,
+        -0.0014
+      ],
+      "stem_radius": 0.0036,
+      "triangles": 20702,
+      "file_mb": 3.76
+    },
+    "daisy": {
+      "file": "daisy.usdz",
+      "bounds_min": [
+        -0.064,
+        0.0,
+        -0.0241
+      ],
+      "bounds_max": [
+        0.0913,
+        0.38,
+        0.1051
+      ],
+      "height": 0.38,
+      "bloom_center": [
+        0.0137,
+        0.3191,
+        0.0405
+      ],
+      "bloom_radius": 0.075,
+      "bloom_bounds_min": [
+        -0.064,
+        0.2582,
+        -0.0241
+      ],
+      "bloom_bounds_max": [
+        0.0913,
+        0.38,
+        0.1051
+      ],
+      "stem_bottom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stem_top": [
+        0.0083,
+        0.252,
+        0.0105
+      ],
+      "stem_radius": 0.0034,
+      "triangles": 15511,
+      "file_mb": 3.39
+    },
+    "vase": {
+      "file": "vase.usdz",
+      "bounds_min": [
+        -0.0677,
+        0.0,
+        -0.0677
+      ],
+      "bounds_max": [
+        0.0676,
+        0.25,
+        0.0676
+      ],
+      "height": 0.25,
+      "outer_radius_max": 0.0679,
+      "rim_height": 0.25,
+      "rim_outer_radius": 0.0579,
+      "rim_inner_radius": 0.0549,
+      "inner_radius_min": 0.0549,
+      "wall_thickness": 0.0025,
+      "is_hollow": true,
+      "cavity_floor_height": 0.0036,
+      "triangles": 9402,
+      "file_mb": 1.85,
+      "wall_profile": [
+        [
+          0.005,
+          0.0383,
+          0.0411
+        ],
+        [
+          0.0125,
+          0.0422,
+          0.0452
+        ],
+        [
+          0.025,
+          0.0502,
+          0.053
+        ],
+        [
+          0.05,
+          0.059,
+          0.0615
+        ],
+        [
+          0.075,
+          0.0629,
+          0.0654
+        ],
+        [
+          0.1,
+          0.0646,
+          0.0671
+        ],
+        [
+          0.125,
+          0.0652,
+          0.0677
+        ],
+        [
+          0.15,
+          0.0652,
+          0.0676
+        ],
+        [
+          0.175,
+          0.0644,
+          0.0669
+        ],
+        [
+          0.2,
+          0.0631,
+          0.0657
+        ],
+        [
+          0.225,
+          0.0606,
+          0.0631
+        ],
+        [
+          0.2375,
+          0.0578,
+          0.0605
+        ],
+        [
+          0.245,
+          0.0549,
+          0.0579
+        ]
+      ]
+    }
+  }
+}

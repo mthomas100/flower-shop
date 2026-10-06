@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode per-user state and build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Machine-local tool config (simulator UDIDs etc.)
+.xcodebuildmcp/
+
+# Python venvs, caches, logs
+.venv/
+venv/
+__pycache__/
+*.log

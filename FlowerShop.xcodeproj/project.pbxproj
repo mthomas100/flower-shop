@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CF303901AAF8314FB0F0EB /* HeadPose.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D0F7449F7666AF5546ABF /* HeadPose.swift */; };
+		0A3B24350094361C84002E8F /* bouquet_chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55B57419B2069FE6B6604C25 /* bouquet_chime.wav */; };
+		10CE4AD70AC01741F8D14366 /* BouquetComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA4EEBDEB4AEF3A7C103DE /* BouquetComponents.swift */; };
+		127179328BE0ADEA6BC41EB7 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE66A0559F4A664919EE583 /* AppModel.swift */; };
+		20AE0E0ED303D8D9566308B6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0223AF5F8106BAB3FDC1BCB5 /* manifest.json */; };
+		2F2631C893B53A6759904402 /* BouquetSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63C5FF83067C19F605F2BF /* BouquetSystem.swift */; };
+		38EC6017D851339A49BD434D /* FlowerAssets in Frameworks */ = {isa = PBXBuildFile; productRef = 26C66AEF7F8820068DADD328 /* FlowerAssets */; };
+		44117395B1485F5A9D3DD9D6 /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327005C6920073AAC4D9D3D /* Tween.swift */; };
+		46B8DD1A27B333767A53883E /* AssetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DEAB2FECCAF78D5AA1C2C /* AssetLibrary.swift */; };
+		47530E6CB7FF7C613C86D1D4 /* ProceduralModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14218FB8742BFD3C6718569E /* ProceduralModels.swift */; };
+		5FABC9D10049DFF59077B7BA /* FlowerCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A96E60F73BA3829E35FD50A /* FlowerCatalog.swift */; };
+		920EB9B1E008655F4BB12BB3 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DFB243CDE61AD5883E7FD /* LaunchView.swift */; };
+		A04C11AB67D43C23FFCCBC41 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BE4A8B4202867BD9D01FD3 /* ImmersiveView.swift */; };
+		A09FE68AF1C66682BE1460E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6309DC1F396A60847753F2 /* Assets.xcassets */; };
+		A7BD91E9B0F429D5C7875C05 /* FlowerShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ABEA9AB6206BB8A1EB736 /* FlowerShopApp.swift */; };
+		B58791813FD5D46C5F9AF151 /* PanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B0341561E9AFF62183D28 /* PanelLayout.swift */; };
+		D61A526819208FEDAA477D54 /* BouquetStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB7A3FCA59B4EAA20CE9CC /* BouquetStudio.swift */; };
+		E81EDEB2968BEF105B81DCD6 /* vase_tink.wav in Resources */ = {isa = PBXBuildFile; fileRef = 200677308EA84D8D68CE1AF6 /* vase_tink.wav */; };
+		F0FAF70F1C9F4C2B6CFC3F6A /* ShopPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DF19722EF9603A3E3FF64 /* ShopPanelView.swift */; };
+		F5CD2684E4C74D0ADB49E38F /* shop_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4CCE7A8484AB6D01CDEA4F /* shop_background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0223AF5F8106BAB3FDC1BCB5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0F63C5FF83067C19F605F2BF /* BouquetSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouquetSystem.swift; sourceTree = "<group>"; };
+		12CAA5A07FB74449FF49BC67 /* FlowerShop.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; name = FlowerShop.app; path = "Flower Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14218FB8742BFD3C6718569E /* ProceduralModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduralModels.swift; sourceTree = "<group>"; };
+		14BE4A8B4202867BD9D01FD3 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		1A6DFB243CDE61AD5883E7FD /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		1EE66A0559F4A664919EE583 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		200677308EA84D8D68CE1AF6 /* vase_tink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vase_tink.wav; sourceTree = "<group>"; };
+		30105627ECEDE357F467C50F /* FlowerAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlowerAssets; path = Packages/FlowerAssets; sourceTree = SOURCE_ROOT; };
+		408B0341561E9AFF62183D28 /* PanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelLayout.swift; sourceTree = "<group>"; };
+		4B4CCE7A8484AB6D01CDEA4F /* shop_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shop_background.jpg; sourceTree = "<group>"; };
+		55B57419B2069FE6B6604C25 /* bouquet_chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bouquet_chime.wav; sourceTree = "<group>"; };
+		598DEAB2FECCAF78D5AA1C2C /* AssetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLibrary.swift; sourceTree = "<group>"; };
+		5A96E60F73BA3829E35FD50A /* FlowerCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerCatalog.swift; sourceTree = "<group>"; };
+		6C1DF19722EF9603A3E3FF64 /* ShopPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPanelView.swift; sourceTree = "<group>"; };
+		71FA4EEBDEB4AEF3A7C103DE /* BouquetComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouquetComponents.swift; sourceTree = "<group>"; };
+		8327005C6920073AAC4D9D3D /* Tween.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tween.swift; sourceTree = "<group>"; };
+		9FDB7A3FCA59B4EAA20CE9CC /* BouquetStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouquetStudio.swift; sourceTree = "<group>"; };
+		BE1D0F7449F7666AF5546ABF /* HeadPose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPose.swift; sourceTree = "<group>"; };
+		CE2E74C2EC4A91E533D41CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC6309DC1F396A60847753F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10ABEA9AB6206BB8A1EB736 /* FlowerShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerShopApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067BAFE6FE1582F6DDEE5625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EC6017D851339A49BD434D /* FlowerAssets in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33766D640FFA15D9191DDF26 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				55B57419B2069FE6B6604C25 /* bouquet_chime.wav */,
+				200677308EA84D8D68CE1AF6 /* vase_tink.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3AB95D38D58DCC5A5E49CA79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12CAA5A07FB74449FF49BC67 /* FlowerShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FFF3FEC7E85EE0F236EECFA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1EE66A0559F4A664919EE583 /* AppModel.swift */,
+				F10ABEA9AB6206BB8A1EB736 /* FlowerShopApp.swift */,
+				CE2E74C2EC4A91E533D41CE4 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AF7B86648E68B6821F296D97 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				30105627ECEDE357F467C50F /* FlowerAssets */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D3C996A80B60BDA97C238461 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC6309DC1F396A60847753F2 /* Assets.xcassets */,
+				0223AF5F8106BAB3FDC1BCB5 /* manifest.json */,
+				4B4CCE7A8484AB6D01CDEA4F /* shop_background.jpg */,
+				33766D640FFA15D9191DDF26 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9C66A281FAC971747809559 /* Studio */ = {
+			isa = PBXGroup;
+			children = (
+				71FA4EEBDEB4AEF3A7C103DE /* BouquetComponents.swift */,
+				9FDB7A3FCA59B4EAA20CE9CC /* BouquetStudio.swift */,
+				0F63C5FF83067C19F605F2BF /* BouquetSystem.swift */,
+				BE1D0F7449F7666AF5546ABF /* HeadPose.swift */,
+				8327005C6920073AAC4D9D3D /* Tween.swift */,
+			);
+			path = Studio;
+			sourceTree = "<group>";
+		};
+		E1C106E580B994D9433F2458 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14BE4A8B4202867BD9D01FD3 /* ImmersiveView.swift */,
+				1A6DFB243CDE61AD5883E7FD /* LaunchView.swift */,
+				408B0341561E9AFF62183D28 /* PanelLayout.swift */,
+				6C1DF19722EF9603A3E3FF64 /* ShopPanelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E63FF35DBB1B21A5085EF433 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				598DEAB2FECCAF78D5AA1C2C /* AssetLibrary.swift */,
+				5A96E60F73BA3829E35FD50A /* FlowerCatalog.swift */,
+				14218FB8742BFD3C6718569E /* ProceduralModels.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F4B3DE50DDDE0EBBA61B8E4F = {
+			isa = PBXGroup;
+			children = (
+				FFB9C3FCF172084F02FB6BA6 /* FlowerShop */,
+				AF7B86648E68B6821F296D97 /* Packages */,
+				3AB95D38D58DCC5A5E49CA79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB9C3FCF172084F02FB6BA6 /* FlowerShop */ = {
+			isa = PBXGroup;
+			children = (
+				8FFF3FEC7E85EE0F236EECFA /* App */,
+				E63FF35DBB1B21A5085EF433 /* Assets */,
+				D3C996A80B60BDA97C238461 /* Resources */,
+				D9C66A281FAC971747809559 /* Studio */,
+				E1C106E580B994D9433F2458 /* Views */,
+			);
+			path = FlowerShop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2585F28274063E07DAD25F7B /* FlowerShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECDD19167C5B627491F1E0A /* Build configuration list for PBXNativeTarget "FlowerShop" */;
+			buildPhases = (
+				096BDB064BF111244EA5B30F /* Sources */,
+				FEE40A1DD02911189642A3D6 /* Resources */,
+				067BAFE6FE1582F6DDEE5625 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerShop;
+			packageProductDependencies = (
+				26C66AEF7F8820068DADD328 /* FlowerAssets */,
+			);
+			productName = FlowerShop;
+			productReference = 12CAA5A07FB74449FF49BC67 /* FlowerShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185D097A47049E6004123549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2585F28274063E07DAD25F7B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A7ED6D99F5C591E7F82676E /* Build configuration list for PBXProject "FlowerShop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F4B3DE50DDDE0EBBA61B8E4F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6EA4B5907920B0140490FE88 /* XCLocalSwiftPackageReference "Packages/FlowerAssets" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3AB95D38D58DCC5A5E49CA79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2585F28274063E07DAD25F7B /* FlowerShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE40A1DD02911189642A3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09FE68AF1C66682BE1460E4 /* Assets.xcassets in Resources */,
+				0A3B24350094361C84002E8F /* bouquet_chime.wav in Resources */,
+				20AE0E0ED303D8D9566308B6 /* manifest.json in Resources */,
+				F5CD2684E4C74D0ADB49E38F /* shop_background.jpg in Resources */,
+				E81EDEB2968BEF105B81DCD6 /* vase_tink.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096BDB064BF111244EA5B30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127179328BE0ADEA6BC41EB7 /* AppModel.swift in Sources */,
+				46B8DD1A27B333767A53883E /* AssetLibrary.swift in Sources */,
+				10CE4AD70AC01741F8D14366 /* BouquetComponents.swift in Sources */,
+				D61A526819208FEDAA477D54 /* BouquetStudio.swift in Sources */,
+				2F2631C893B53A6759904402 /* BouquetSystem.swift in Sources */,
+				5FABC9D10049DFF59077B7BA /* FlowerCatalog.swift in Sources */,
+				A7BD91E9B0F429D5C7875C05 /* FlowerShopApp.swift in Sources */,
+				06CF303901AAF8314FB0F0EB /* HeadPose.swift in Sources */,
+				A04C11AB67D43C23FFCCBC41 /* ImmersiveView.swift in Sources */,
+				920EB9B1E008655F4BB12BB3 /* LaunchView.swift in Sources */,
+				B58791813FD5D46C5F9AF151 /* PanelLayout.swift in Sources */,
+				47530E6CB7FF7C613C86D1D4 /* ProceduralModels.swift in Sources */,
+				F0FAF70F1C9F4C2B6CFC3F6A /* ShopPanelView.swift in Sources */,
+				44117395B1485F5A9D3DD9D6 /* Tween.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36F155A092327EADEE0AA767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowerShop/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flower Shop";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlowerShop;
+				PRODUCT_NAME = "Flower Shop";
+				SDKROOT = xros;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		38BEC2719A1F69CE64ED1F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		47C47A7A88B269A087480DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		7A8FE5CA4FEAA36B9AB7C7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowerShop/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flower Shop";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlowerShop;
+				PRODUCT_NAME = "Flower Shop";
+				SDKROOT = xros;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7ED6D99F5C591E7F82676E /* Build configuration list for PBXProject "FlowerShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C47A7A88B269A087480DA1 /* Debug */,
+				38BEC2719A1F69CE64ED1F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CECDD19167C5B627491F1E0A /* Build configuration list for PBXNativeTarget "FlowerShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F155A092327EADEE0AA767 /* Debug */,
+				7A8FE5CA4FEAA36B9AB7C7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		6EA4B5907920B0140490FE88 /* XCLocalSwiftPackageReference "Packages/FlowerAssets" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/FlowerAssets;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26C66AEF7F8820068DADD328 /* FlowerAssets */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FlowerAssets;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 185D097A47049E6004123549 /* Project object */;
+}
